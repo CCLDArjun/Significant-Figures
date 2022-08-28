@@ -119,4 +119,8 @@ class Val:
             return self.val > other
     def __index__(self):
         return int(self.val)
+    def __float__(self):
+        return self.val
+    def __int__(self):
+        return int(self.val)
 
