@@ -13,7 +13,7 @@ Evaluate expressions:
 >>> seval("1.100000+1.0000") * seval("5.113+43.331")
 1.017E2
 >> def force(mass, accel):
-  ...     return mass * accel
+...     return mass * accel
 ...
 >>> force(seval("1.00"), seval("4.60"))
 4.60E0
